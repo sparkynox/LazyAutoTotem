@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "lazyautototem",
+  "version": "${version}",
+  "name": "LazyAuto Totem",
+  "description": "Auto totem swap + Server Bypass ( Kinda )",
+  "authors": ["SparkyNox", "LazyAria"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/lazyautototem/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.sparkyNox.lazyautototem.LazyAutoTotemClient"]
+  },
+  "mixins": ["lazyautototem.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api":   "*",
+    "minecraft":    "~1.21.11",
+    "java":         ">=21"
+  }
+}
